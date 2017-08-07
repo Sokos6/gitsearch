@@ -48,7 +48,7 @@ class Base extends React.Component {
 
 	onData(res, toggleTopic) {
 		const result = {
-			desc: (
+			desc: (`
 				<div className="card-layout">
 					<div className="card-top">
 						<div className="card-details">
@@ -88,7 +88,7 @@ class Base extends React.Component {
 						</a>
 					</div>
 				</div>
-			)
+			`)
 		};
 		return result;
 	}
